@@ -9,4 +9,4 @@ exit
 sudo docker commit -m "test reg first commit" testdockerreg testdockerregimg:1.0 /bin/bash
 sudo nano /etc/docker/daemon.json
 sudo service docker restart
-sudo docker push 172.31.30.94
+sudo docker push 172.31.30.94:5000/testdockerregimg:1.0
